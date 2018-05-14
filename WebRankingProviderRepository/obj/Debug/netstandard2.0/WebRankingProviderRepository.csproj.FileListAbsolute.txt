@@ -1,0 +1,3 @@
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderRepository/obj/Debug/netstandard2.0/WebRankingProviderRepository.csproj.CoreCompileInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderRepository/obj/Debug/netstandard2.0/WebRankingProviderRepository.AssemblyInfoInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderRepository/obj/Debug/netstandard2.0/WebRankingProviderRepository.AssemblyInfo.cs

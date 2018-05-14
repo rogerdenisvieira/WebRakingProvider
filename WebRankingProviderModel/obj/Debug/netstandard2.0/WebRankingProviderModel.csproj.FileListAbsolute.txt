@@ -1,0 +1,8 @@
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/bin/Debug/netstandard2.0/WebRankingProviderModel.deps.json
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/bin/Debug/netstandard2.0/WebRankingProviderModel.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/bin/Debug/netstandard2.0/WebRankingProviderModel.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/obj/Debug/netstandard2.0/WebRankingProviderModel.csproj.CoreCompileInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/obj/Debug/netstandard2.0/WebRankingProviderModel.AssemblyInfoInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/obj/Debug/netstandard2.0/WebRankingProviderModel.AssemblyInfo.cs
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/obj/Debug/netstandard2.0/WebRankingProviderModel.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/obj/Debug/netstandard2.0/WebRankingProviderModel.pdb
