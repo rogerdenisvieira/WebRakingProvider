@@ -1,0 +1,13 @@
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderService.deps.json
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderService.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderService.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderModel.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderRepository.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderRepository.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/bin/Debug/netstandard2.0/WebRankingProviderModel.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/Debug/netstandard2.0/WebRankingProviderService.csprojResolveAssemblyReference.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/Debug/netstandard2.0/WebRankingProviderService.csproj.CoreCompileInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/Debug/netstandard2.0/WebRankingProviderService.AssemblyInfoInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/Debug/netstandard2.0/WebRankingProviderService.AssemblyInfo.cs
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/Debug/netstandard2.0/WebRankingProviderService.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/Debug/netstandard2.0/WebRankingProviderService.pdb

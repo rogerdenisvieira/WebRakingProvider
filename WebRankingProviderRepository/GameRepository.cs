@@ -6,17 +6,18 @@ namespace WebRankingProviderRepository
 {
     public class GameRepository : IRepository<Game>
     {
+        
         public bool Create(Game item)
         {
             throw new NotImplementedException();
         }
 
-        public bool Delete(int id)
+        public bool Delete(long id)
         {
             throw new NotImplementedException();
         }
 
-        public Game Get(int id)
+        public Game Get(long id)
         {
             throw new NotImplementedException();
         }

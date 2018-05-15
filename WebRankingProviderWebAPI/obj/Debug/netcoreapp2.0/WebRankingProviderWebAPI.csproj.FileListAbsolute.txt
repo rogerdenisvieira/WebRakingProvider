@@ -1,0 +1,17 @@
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderWebAPI.deps.json
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderWebAPI.runtimeconfig.json
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderWebAPI.runtimeconfig.dev.json
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderWebAPI.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderWebAPI.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderModel.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderRepository.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderService.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderModel.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderService.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/bin/Debug/netcoreapp2.0/WebRankingProviderRepository.pdb
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/obj/Debug/netcoreapp2.0/WebRankingProviderWebAPI.csprojResolveAssemblyReference.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/obj/Debug/netcoreapp2.0/WebRankingProviderWebAPI.csproj.CoreCompileInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/obj/Debug/netcoreapp2.0/WebRankingProviderWebAPI.AssemblyInfoInputs.cache
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/obj/Debug/netcoreapp2.0/WebRankingProviderWebAPI.AssemblyInfo.cs
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/obj/Debug/netcoreapp2.0/WebRankingProviderWebAPI.dll
+/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderWebAPI/obj/Debug/netcoreapp2.0/WebRankingProviderWebAPI.pdb

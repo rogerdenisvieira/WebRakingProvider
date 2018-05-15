@@ -11,12 +11,12 @@ namespace WebRankingProviderRepository
             throw new NotImplementedException();
         }
 
-        public bool Delete(int id)
+        public bool Delete(long id)
         {
             throw new NotImplementedException();
         }
 
-        public Score Get(int id)
+        public Score Get(long id)
         {
             throw new NotImplementedException();
         }
