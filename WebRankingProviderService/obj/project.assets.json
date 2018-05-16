@@ -5495,38 +5495,40 @@
     ]
   },
   "packageFolders": {
-    "/home/roger.vieira/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\roger\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/WebRankingProviderService.csproj",
+      "projectUniqueName": "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderService\\WebRankingProviderService.csproj",
       "projectName": "WebRankingProviderService",
-      "projectPath": "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/WebRankingProviderService.csproj",
-      "packagesPath": "/home/roger.vieira/.nuget/packages/",
-      "outputPath": "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderService/obj/",
+      "projectPath": "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderService\\WebRankingProviderService.csproj",
+      "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/roger.vieira/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderRepository/WebRankingProviderRepository.csproj": {
-              "projectPath": "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderRepository/WebRankingProviderRepository.csproj"
+            "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderModel\\WebRankingProviderModel.csproj": {
+              "projectPath": "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderModel\\WebRankingProviderModel.csproj"
             },
-            "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/WebRankingProviderModel.csproj": {
-              "projectPath": "/home/roger.vieira/Desktop/WebRankingProvider/WebRankingProviderModel/WebRankingProviderModel.csproj"
+            "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderRepository\\WebRankingProviderRepository.csproj": {
+              "projectPath": "C:\\Users\\roger\\source\\repos\\WebRankingProvider\\WebRankingProviderRepository\\WebRankingProviderRepository.csproj"
             }
           }
         }

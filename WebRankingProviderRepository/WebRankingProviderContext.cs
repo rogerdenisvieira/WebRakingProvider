@@ -6,10 +6,8 @@ namespace WebRankingProviderRepository
 {
     public class WebRankingProviderContext : DbContext
     {
-
-        public DbSet<Player> Players { get; set; }
-        public DbSet<Game> Games { get; set; }
-        public DbSet<Score> Scores { get; set; }
+        // collection that represents GameResult entities
+        public DbSet<GameResult> GameResults { get; set; }
 
 
         public WebRankingProviderContext(DbContextOptions<WebRankingProviderContext> options) 
@@ -18,6 +16,7 @@ namespace WebRankingProviderRepository
                 
             }
 
+        //setting up SQLite DB
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=WebRankingProvider.db");
