@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using WebRankingProvider.Models;
 using WebRankingProviderModel.Models;
@@ -24,17 +26,17 @@ namespace WebRankingProviderService
         // TODO: fix it 
         public IEnumerable<Leaderboard> RetrieveLeaderBoards(int limit)
         {
-            List<Leaderboard> l = new List<Leaderboard>();
 
-            l.Add(new Leaderboard
-            {
-                PlayerId = 300,
-                Balance = 18385,
-                LastUpdateDate = DateTime.Now
+            var result = (List<GameResult>)_repository.List();
+            var resultFiltered = result
+                .GroupBy(r => r.PlayerId)
+                .SelectMany( cl => cl.Select( clLine => new Leaderboard{
+                    PlayerId = clLine.PlayerId,
+                    Balance = cl.Sum( s => s.Win),
+                    LastUpdateDate = DateTime.UtcNow
+                })).OrderByDescending(o => o.Balance);
 
-            });
-
-            return l;
+            return resultFiltered;
 
         }
     }

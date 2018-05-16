@@ -20,11 +20,12 @@ namespace WebRankingProviderService
         /// Method designed to store new game's results into database
         /// </summary>
         /// <param name="item"> It is an object that represent a game's result</param>
-        /// <returns></returns>
-        public Boolean InsertNewGameResult(GameResult item)
+        /// <returns> Return if method had success on persist operation</returns>
+        public bool InsertNewGameResult(GameResult item)
         {
             try
             {
+                //item.GameResultId = 8;
                 this._repository.Create(item);
                 return true;
             }

@@ -20,16 +20,19 @@ namespace WebRankingProviderRepository
             this._context = context;
         }
 
+        // TODO: implement a log
         public bool Create(GameResult item)
         {
+            Console.WriteLine("Trying to save a game result.");
             try
             {
-                this._context.Add<GameResult>(item);
+                this._context.GameResults.Add(item);
                 this._context.SaveChanges();
                 return true;
             }
-            catch (Exception)
-            {
+            catch (Exception ex)
+            {        
+                System.Console.WriteLine(ex.Message);    
                 return false;                
             }
         }

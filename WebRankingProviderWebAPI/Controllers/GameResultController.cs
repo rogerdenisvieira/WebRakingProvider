@@ -9,7 +9,7 @@ using WebRankingProviderService;
 
 namespace WebRankingProviderWebAPI.Controllers
 {
-    [Produces("application/json")]
+    //[Produces("application/json")]
     [Route("api/gameresult")]
     public class GameResultController : Controller
     {
@@ -22,23 +22,24 @@ namespace WebRankingProviderWebAPI.Controllers
             this._service = service;
         }
 
-        // TODO: fix this method
         // POST: api/gameresult
+        // {
+        //  GameId: 12,
+        //  PlayerId:66,
+        //  Win:15587
+        // }
         [HttpPost]
-        public IActionResult Post(GameResult value)
+        public IActionResult Post([FromBody]GameResult value)
         {
-
-            if(value == null)
-            {
-                return BadRequest();
-            }
-            else
+            if(value != null)
             {
                 this._service.InsertNewGameResult(value);
                 return Ok();
             }
+            else
+            {
+                return BadRequest();
+            }         
         }
-        
- 
     }
 }
