@@ -34,7 +34,8 @@ namespace WebRankingProviderService
                     PlayerId = clLine.PlayerId,
                     Balance = cl.Sum( s => s.Win),
                     LastUpdateDate = DateTime.UtcNow
-                })).OrderByDescending(o => o.Balance);
+                }))
+                .OrderByDescending(o => o.Balance);
 
             return resultFiltered;
 
