@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "c745f665-24ad-47b9-a498-4e0652abf9e5",
+		"name": "WebRankingProviderTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:56764/api/leaderboard/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:56764/api/leaderboard/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "56764",
+					"path": [
+						"api",
+						"leaderboard",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:56766/api/gameresult/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      GameId: 8778,\n      PlayerId: 87891,\n      Win:14978\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:56764/api/gameresult/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "56764",
+					"path": [
+						"api",
+						"gameresult",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

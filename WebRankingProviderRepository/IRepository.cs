@@ -10,6 +10,6 @@ namespace WebRankingProviderRepository
         bool Create(T item);
         bool Delete(long id);
         T Get(long id);
-        bool SaveChanges();
+        bool SaveChanges(T item);
     }
 }

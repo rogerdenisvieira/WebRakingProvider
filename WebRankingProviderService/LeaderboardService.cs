@@ -11,9 +11,9 @@ namespace WebRankingProviderService
 {
     public class LeaderboardService : IService<Leaderboard>
     {
-        private IRepository<GameResult> _repository;
+        private GameResultRepository _repository;
 
-        public LeaderboardService(IRepository<GameResult> repository)
+        public LeaderboardService(GameResultRepository repository)
         {
             this._repository = repository;
         }
@@ -22,23 +22,22 @@ namespace WebRankingProviderService
         /// Method dsigned to retrieve a list with top N players
         /// </summary>
         /// <param name="limit">Size of collection with top players</param>
-        /// <returns></returns>
+        /// <returns> Returns top N players ordering by sum of their individual scores.</returns>
         // TODO: fix it 
         public IEnumerable<Leaderboard> RetrieveLeaderBoards(int limit)
         {
-
             var result = (List<GameResult>)_repository.List();
             var resultFiltered = result
-                .GroupBy(r => r.PlayerId)
-                .SelectMany( cl => cl.Select( clLine => new Leaderboard{
-                    PlayerId = clLine.PlayerId,
-                    Balance = cl.Sum( s => s.Win),
-                    LastUpdateDate = DateTime.UtcNow
-                }))
-                .OrderByDescending(o => o.Balance);
+                .GroupBy( group => group.PlayerId)
+                .Select( select => new Leaderboard{
+                    PlayerId = select.First().PlayerId,
+                    Balance = select.Sum( s => s.Win),
+                    LastUpdateDate = DateTime.Now
+                })
+                .OrderByDescending( order => order.Balance)
+                .Take(limit);
 
             return resultFiltered;
-
         }
     }
 }

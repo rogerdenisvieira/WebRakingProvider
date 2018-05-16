@@ -20,10 +20,13 @@ namespace WebRankingProviderRepository
             this._context = context;
         }
 
-        // TODO: implement a log
+        /// <summary>
+        /// Create a new GameResult into DB
+        /// </summary>
+        /// <param name="item"> GameResult object to persist into DB</param>
+        /// <returns>Return a boolean indicating whether operations was successfully</returns>
         public bool Create(GameResult item)
         {
-            Console.WriteLine("Trying to save a game result.");
             try
             {
                 this._context.GameResults.Add(item);
@@ -47,14 +50,56 @@ namespace WebRankingProviderRepository
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Get a GameResult given playerId and gameId
+        /// </summary>
+        /// <param name="playerId">Id of the player</param>
+        /// <param name="gameId">Id of the game</param>
+        /// <returns> Return a GameResult</returns>
+        public GameResult Get(long playerId, long gameId)
+        {
+            GameResult result = this._context.GameResults
+                     .Where(gameResult => gameResult.GameId.Equals(gameId) 
+                        && gameResult.PlayerId.Equals(playerId))
+                     .FirstOrDefault();
+
+            return result;
+        }
+
+        /// <summary>
+        /// List a ser of GameResults
+        /// </summary>
+        /// <returns> Return a list that contains a set of GameResults</returns>
         public IEnumerable<GameResult> List()
         {
             return this._context.GameResults.ToList<GameResult>();
         }
 
-        public bool SaveChanges()
+        /// <summary>
+        /// Updates a GameResult whether it exists
+        /// </summary>
+        /// <param name="item"> A GameResult to update</param>
+        /// <returns> Return a boolean indicating whether operations was successfully</returns>
+        public bool SaveChanges(GameResult item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var itemToUpdate = this.Get(item.PlayerId, item.GameId);
+                if (itemToUpdate != null)
+                {
+                    itemToUpdate.Win = itemToUpdate.Win + item.Win;
+                    this._context.SaveChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

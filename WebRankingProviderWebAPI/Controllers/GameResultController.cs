@@ -33,7 +33,7 @@ namespace WebRankingProviderWebAPI.Controllers
         {
             if(value != null)
             {
-                this._service.InsertNewGameResult(value);
+                this._service.InsertGameResult(value);
                 return Ok();
             }
             else

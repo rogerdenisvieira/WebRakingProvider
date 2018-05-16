@@ -11,7 +11,7 @@ namespace WebRankingProvider.Models
         public DateTime Timestamp { get; set; }
 
         public GameResult(){
-            this.Timestamp = DateTime.UtcNow;
+            this.Timestamp = DateTime.Now;
         }
     }
 }

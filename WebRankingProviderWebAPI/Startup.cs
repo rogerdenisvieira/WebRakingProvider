@@ -33,7 +33,7 @@ namespace WebRankingProviderWebAPI
                 options.FormatterMappings.SetMediaTypeMappingForFormat("json", "application/json");
             });
             // Registering application services to use DI
-            services.AddTransient<IRepository<GameResult>, GameResultRepository>();
+            services.AddTransient<GameResultRepository, GameResultRepository>();
             services.AddTransient<GameResultService, GameResultService>();
             services.AddTransient<LeaderboardService, LeaderboardService>();
             services.AddDbContext<WebRankingProviderContext>();
