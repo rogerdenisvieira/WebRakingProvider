@@ -25,7 +25,7 @@ namespace WebRankingProviderWebAPI.Controllers
         // TODO: fix this method
         // POST: api/gameresult
         [HttpPost]
-        public IActionResult Post([FromBody] GameResult value)
+        public IActionResult Post(GameResult value)
         {
 
             if(value == null)
