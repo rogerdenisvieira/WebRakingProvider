@@ -4,7 +4,7 @@ This documentation provides a little set of informations that describes the deve
 
 ## Running
 
-There is 2 way to run this application:
+There are 2 ways to run this application:
 
 #### Visual Studio 200x
 
